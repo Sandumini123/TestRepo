@@ -1,0 +1,154 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "cart-functionality;display-all-phones",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Display all phones",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the home page",
+            "match": {
+              "location": "tests\\steps\\cartSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3861370500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I select the \"Phones\" category",
+            "match": {
+              "location": "tests\\steps\\cartSteps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200671299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see all phones displayed",
+            "match": {
+              "location": "tests\\steps\\cartSteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12513499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-functionality;add-product-to-cart",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Add product to cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the home page",
+            "match": {
+              "location": "tests\\steps\\cartSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4878998400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I select a product",
+            "match": {
+              "location": "tests\\steps\\cartSteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2101279900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I am navigated to the product page",
+            "match": {
+              "location": "tests\\steps\\cartSteps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2127700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the \"Add to cart\" button",
+            "match": {
+              "location": "tests\\steps\\cartSteps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1989107800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see a success message \"Product added\"",
+            "match": {
+              "location": "tests\\steps\\cartSteps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 751270400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "cart-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Cart functionality",
+    "tags": [
+      {
+        "name": "@cart",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\cart.feature"
+  }
+]
