@@ -1,0 +1,12 @@
+{
+    "default": {
+      "formateOptions": {
+        "snippentInterface": "async-await"
+      },
+      "paths": ["tests/features/createBooks/createBook.feature"],
+      "publishQuite": true,
+      "dryRun": false,
+      "require": ["tests/steps/createBooks/createBook.steps.js", "tests/support/world.js"],
+      "format": ["html:cucumber-report.html"]
+    }
+  }
